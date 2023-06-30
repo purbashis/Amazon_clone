@@ -40,7 +40,7 @@
     color: #cccccc;
 
     font-size: 1rem;
-    margin-left: 15px;
+    margin-left: 10px;
 
 }
 .add-s{
@@ -116,4 +116,36 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 
+}
+
+.panel{
+    height: 40px;
+    background-color:#1b1b1b;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+   width: 70%;
+   font-size: 0.85rem;
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* --------------hero section ------------------*/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 600px;
 }
